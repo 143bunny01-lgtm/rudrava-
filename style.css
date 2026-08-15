@@ -832,10 +832,11 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
 .container {
-    width: 88%;
+    width: 84%;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-content,
@@ -850,12 +851,6 @@ body {
 }
    /* MOBILE WIDTH FIX */
 
-.container {
-    width: 88%;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .hero-content,
 .hero-text {
@@ -863,7 +858,10 @@ body {
     min-width: 0;
     max-width: 100%;
 }
-
+.hero-text {
+    padding-left: 6px;
+    padding-right: 6px;
+}
 .hero-text h1 {
     width: 100%;
     max-width: 100%;

@@ -592,7 +592,8 @@ footer {
     }
 
     .menu-button {
-        display: block;
+    display: block;
+    margin-left: auto;
     }
 
     .mobile-menu {
@@ -692,6 +693,7 @@ footer {
     min-height: 78px;
     height: 78px;
     padding: 6px 0;
+    justify-content: flex-start;
     }
 
     .logo {

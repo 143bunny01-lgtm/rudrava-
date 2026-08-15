@@ -54,20 +54,19 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-
 .logo {
-    font-size: 25px;
-    font-weight: 800;
-    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    width: 145px;
 }
 
-.logo span {
+.logo img {
+    width: 100%;
+    height: auto;
     display: block;
-    font-size: 7px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    margin-top: -2px;
+    mix-blend-mode: multiply;
 }
+
 
 .desktop-menu {
     display: flex;
@@ -690,7 +689,7 @@ footer {
     }
 
     .logo {
-        font-size: 20px;
+    width: 120px;
     }
 
     .hero {

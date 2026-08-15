@@ -681,9 +681,11 @@ footer {
 
 @media (max-width: 600px) {
 
-    .container {
-        width: 88%;
-    }
+   .container {
+    width: 88%;
+    max-width: 100%;
+    margin: 0 auto;
+   }
 
     .section {
         padding: 75px 0;

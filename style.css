@@ -839,15 +839,6 @@ body {
     margin-right: auto;
 }
 
-.hero-content,
-.services-grid,
-.about-grid,
-.work-grid,
-.process-grid,
-.pricing-box,
-.contact-box {
-    width: 100%;
-    max-width: 100%;
 }
    /* MOBILE WIDTH FIX */
 

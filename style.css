@@ -57,11 +57,13 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    width: 145px;
+    width: 115px;
+    height: 55px;
+    overflow: hidden;
 }
 
 .logo img {
-    width: 100%;
+    width: 115px;
     height: auto;
     display: block;
     mix-blend-mode: multiply;
@@ -689,8 +691,14 @@ footer {
     }
 
     .logo {
-    width: 120px;
-    }
+    width: 115px;
+    height: 50px;
+}
+
+.logo img {
+    width: 115px;
+    height: auto;
+}
 
     .hero {
         min-height: auto;
@@ -810,4 +818,26 @@ footer {
         flex-wrap: wrap;
         gap: 20px;
     }
+   html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 88%;
+    max-width: 100%;
+}
+
+.hero-content,
+.services-grid,
+.about-grid,
+.work-grid,
+.process-grid,
+.pricing-box,
+.contact-box {
+    width: 100%;
+    max-width: 100%;
+}
   }

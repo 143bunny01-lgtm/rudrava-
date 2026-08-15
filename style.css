@@ -704,18 +704,18 @@ footer {
 
     .hero {
     min-height: auto;
-    padding: 35px 0 60px;
+    padding: 25px 0 50px;
     }
 .hero-content {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 25px;
     align-items: stretch;
 }
     .hero-text h1 {
-    font-size: 50px;
+    font-size: 44px;
     line-height: 0.98;
-    letter-spacing: -2px;
+    letter-spacing: -1.5px;
     }
 
     .hero-description {

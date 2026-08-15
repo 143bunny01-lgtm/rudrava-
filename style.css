@@ -190,17 +190,17 @@ a {
 
 .hero-content {
     display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
-    gap: 80px;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 65px;
     align-items: center;
 }
 
 .hero-text h1 {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(55px, 7vw, 94px);
+    font-size: clamp(62px, 6vw, 82px);
     line-height: 0.95;
     font-weight: 400;
-    letter-spacing: -4px;
+    letter-spacing: -3px;
 }
 
 .hero-text h1 span {

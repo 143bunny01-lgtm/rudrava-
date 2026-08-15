@@ -57,18 +57,17 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    width: 115px;
-    height: 55px;
-    overflow: hidden;
+    width: 135px;
+    height: auto;
+    overflow: visible;
 }
 
 .logo img {
-    width: 115px;
+    width: 135px;
     height: auto;
     display: block;
     mix-blend-mode: multiply;
 }
-
 
 .desktop-menu {
     display: flex;
@@ -687,12 +686,15 @@ footer {
     }
 
     .nav {
-        height: 72px;
+    min-height: 100px;
+    height: auto;
+    padding: 12px 0;
     }
 
     .logo {
     width: 115px;
-    height: 50px;
+    height: auto;
+    overflow: visible;
 }
 
 .logo img {

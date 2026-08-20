@@ -990,3 +990,24 @@ img {
     }
 
 }
+/* MOBILE SERVICES TEXT FIX */
+@media (max-width: 600px) {
+
+    .services-grid > div {
+        padding: 28px 22px !important;
+    }
+
+    .services-grid h3 {
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 18px !important;
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+    }
+
+    .services-grid p {
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+    }
+
+}

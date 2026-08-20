@@ -932,3 +932,45 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* INTRO ANIMATION */
+#intro{
+    position:fixed;
+    inset:0;
+    background:#F5F0E8;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+    animation:introHide 2.8s forwards;
+}
+
+.intro-logo{
+    width:120px;
+    margin-bottom:18px;
+    animation:logoPop 1.2s ease;
+}
+
+#intro h1{
+    font-family:Georgia,serif;
+    font-size:42px;
+    color:#2C1F1A;
+    margin:0;
+}
+
+#intro p{
+    color:#6E625B;
+    letter-spacing:3px;
+    margin-top:8px;
+    font-size:13px;
+}
+
+@keyframes logoPop{
+    0%{opacity:0;transform:scale(.6);}
+    100%{opacity:1;transform:scale(1);}
+}
+
+@keyframes introHide{
+    0%,80%{opacity:1;visibility:visible;}
+    100%{opacity:0;visibility:hidden;}
+}

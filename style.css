@@ -942,11 +942,11 @@ img {
     justify-content:center;
     align-items:center;
     z-index:99999;
-    animation:introHide 2.8s forwards;
+    animation:introHide 4.8s forwards;
 }
 
 .intro-logo {
-    width: 400px;
+    width: 500px;
     height: auto;
     margin-bottom: -80px;
     animation: logoPop 3.2s ease;

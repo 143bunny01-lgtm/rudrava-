@@ -948,7 +948,7 @@ img {
 .intro-logo {
     width: 400px;
     height: auto;
-    margin-bottom: 5px;
+    margin-bottom: -80px;
     animation: logoPop 1.2s ease;
 }
 

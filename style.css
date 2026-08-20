@@ -1061,3 +1061,31 @@ img {
     }
 
 }
+@media (max-width: 600px) {
+
+    .container.nav {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 6px 15px !important;
+        box-sizing: border-box !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+    .container.nav .logo {
+        position: static !important;
+        margin: 0 !important;
+        left: auto !important;
+        right: auto !important;
+        transform: none !important;
+    }
+
+    .container.nav .menu-button {
+        position: static !important;
+        margin: 0 0 0 auto !important;
+    }
+
+}

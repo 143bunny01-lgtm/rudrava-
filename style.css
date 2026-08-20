@@ -762,9 +762,8 @@ footer {
     }
 
     .services-grid {
-        grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
-
     .service-card,
     .service-card:nth-child(2n),
     .service-card:nth-child(3n) {

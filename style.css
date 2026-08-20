@@ -945,10 +945,11 @@ img {
     animation:introHide 2.8s forwards;
 }
 
-.intro-logo{
-    width:400px;
-    margin-bottom:25px;
-    animation:logoPop 1.2s ease;
+.intro-logo {
+    width: 400px;
+    height: auto;
+    margin-bottom: 5px;
+    animation: logoPop 1.2s ease;
 }
 
 #intro h1{

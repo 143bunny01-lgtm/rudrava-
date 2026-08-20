@@ -914,7 +914,7 @@ body {
 
     .logo {
         position: absolute !important;
-        left: -15px  !important;
+        left: 15px  !important;
         right: auto !important;
         margin: 0 !important;
         width: 115px !important;
